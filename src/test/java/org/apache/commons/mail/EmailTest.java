@@ -14,6 +14,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
+// Now Linked to Maven CI pipeline
+
 public class EmailTest {
     private static String[] TEST_EMAILS = {"ab@bc.com", "a.b@c.org", "testEmail@gmail.com"};
     private static String[] TEST_EMPTY_EMAILS = {};
