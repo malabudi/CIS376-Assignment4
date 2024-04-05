@@ -19,7 +19,6 @@ public class EmailTest {
     private static String[] TEST_EMPTY_EMAILS = {};
     private static String TEST_EMAIL = "testEmail@gmail.com";
     private static String TEST_HOST_NAME = "TestHostName";
-    private String[] TEST_VALID_CHARS = {" ", "a", "A", "\uc5ec", "0123456789", "01234567890123456789"};
     private Map<String, String> TEST_HEADERS = new HashMap<String, String>() {{
         put("key1", "value1");
         put("key2", "value2");
